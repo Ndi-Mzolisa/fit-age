@@ -20,8 +20,8 @@ export default function Hero() {
         text={"Accept & Get Started"}>
       </Button>
 
-      <div>
-        <img src={fitAgeBannerImage} alt="image of a very fit viking man" width="450" height="auto" />
+      <div className="border border-solid border-white rounded-[1rem]">
+        <img src={fitAgeBannerImage} alt="image of a very fit viking man" width="450" height="auto" className="border border-solid border-white rounded-[1rem]" />
       </div>
   </div>
       

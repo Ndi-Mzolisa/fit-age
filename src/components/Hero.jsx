@@ -7,7 +7,7 @@ export default function Hero() {
 
     <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[750px] w-full mx-auto p-4">
       <div className="flex flex-col gap-4">
-        <p>MONSTER YOU LOADING...</p>
+        <p>DARE TO ENTER THE...</p>
         <h1 className="p-1 font-semibold text-5xl sm:text-6xl md:text-7xl lg:text-8xl border-b-[1px] border-b-[#faa560] w-full">
           <span className="text-red-400">AGE</span> OF GODS
         </h1>

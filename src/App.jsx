@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Generator from './components/Generator'
 import Workout from './components/Workout'
 import { generateWorkout } from './utils/functions'
+import Nav from './components/Nav'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <main className='min-h-screen flex flex-col bg-gradient-to-r from-slate-800 to-slate-950 text-white text-sm sm:text-base'>
+      <Nav />
       <Hero />
       <Generator
         pain={pain}

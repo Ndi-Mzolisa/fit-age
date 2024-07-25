@@ -1,8 +1,10 @@
 import React from 'react'
 import Button from "./Button"
+import fitAgeBannerImage from '../assets/fit-age-banner-image.jpg'
 
 export default function Hero() {
   return (
+
     <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[750px] w-full mx-auto p-4">
       <div className="flex flex-col gap-4">
         <p>MONSTER YOU LOADING...</p>
@@ -17,6 +19,11 @@ export default function Hero() {
       }} 
         text={"Accept & Get Started"}>
       </Button>
-    </div>
+
+      <div>
+        <img src={fitAgeBannerImage} alt="image of a very fit viking man" width="450" height="auto" />
+      </div>
+  </div>
+      
   )
 }
